@@ -1,4 +1,5 @@
-{:deps {ring/ring-jetty-adapter {:mvn/version "1.11.0"}
+{:src ["src"]
+ :deps {ring/ring-jetty-adapter {:mvn/version "1.11.0"}
         compojure/compojure {:mvn/version "1.7.1"}
         metosin/muuntaja {:mvn/version "0.6.8"}
         cheshire/cheshire {:mvn/version "5.12.0"}
